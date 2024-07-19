@@ -1,4 +1,5 @@
 import { withRenderCount } from '@/locked/useRenderCount'
+import { useProductPrice } from '@/locked/useProductPrice';
 
 function EcommerceCardContentPriceBase({ price }: { price?: string }) {
   return price ? (
